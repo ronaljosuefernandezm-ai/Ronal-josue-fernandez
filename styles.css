@@ -1,0 +1,28 @@
+/* Reseteo de espacipos */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+/* variables*/
+:root{
+  --color-foondo: #313e51;
+  --color-pregunta: #bdd72d;  
+}
+
+/*fuente*/
+@font-face{
+  font-family: 'Departure mono';
+  src: url('./assets/fonts/DepartureMono-Regular.otf')
+}
+
+body{
+  background-color: var(--color-foondo);
+  font-family: 'Departure mono';
+  color: white;   
+}
+
+.pregunta{
+  color: var(--color-pregunta);
+}
