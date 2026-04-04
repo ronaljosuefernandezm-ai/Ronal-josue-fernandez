@@ -7,14 +7,14 @@
 
 /* variables*/
 :root{
-  --color-foondo: #313e51;
-  --color-pregunta: #bdd72d;
-  --color-fondo-opcion: #3c4c67;
-  --color-opcion: #c5bfbf;
-  --color-opcion-hover: #000;
+  --color-background: #313e51;
+  --color-question: #bdd72d;
+  --color-option-background: #3c4c67;
+  --color-option: #c5bfbf;
+  --color-option-hover: #000;
 
-  --tamaño-pregunta: 2rem;
-  --tamaño-opcion: 1.8rem;  
+  --size-question: 2rem;
+  --size-option: 1.8rem;  
 }
 
 /*fuente*/
@@ -24,26 +24,26 @@
 }
 
 body{
-  background-color: var(--color-foondo);
+  background-color: var(--color-background);
   font-family: 'Departure mono';  
 }
 
 .pregunta{
-  color: var(--color-pregunta);
-  font-size: var(--tamaño-pregunta);
+  color: var(--color-question);
+  font-size: var(--size-question);
   margin: 8px 8px 32px;
 }
 
 .opcion{
-  background-color: var(--color-fondo-opcion);
-  color: var(--color-opcion);
+  background-color: var(--color-option-background);
+  color: var(--color-option);
   margin: 8px;
   padding: 4px;
-  font-size: var(--tamaño-opcion);
+  font-size: var(--size-option);
   border-radius: 4px;
   cursor: pointer;
   &:hover{
-    background-color: var(--color-pregunta);
-    color: var(--color-opcion-hover);
+    background-color: var(--color-question);
+    color: var(--color-option-hover);
   }
 }
