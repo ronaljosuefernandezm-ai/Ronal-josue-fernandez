@@ -1,5 +1,5 @@
 
-//seleccionar los elementos del dow
-const contenedorpregunta = document.querySelector('#contenedor-pregunta');
+// select the elements of the DOM
+const questionContainer = document.querySelector('#question-container');
 
-contenedorpregunta.innerHTML = '<h2 clase="pregunta">selecciona el tema:</h2>'
+questionContainer.innerHTML = '<h2 class="question">select the theme:</h2>'
